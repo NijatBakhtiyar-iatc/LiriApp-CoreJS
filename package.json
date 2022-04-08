@@ -1,0 +1,19 @@
+{
+  "name": "nodeliritask",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "inquirer": "^8.2.2",
+    "weather-js": "^2.0.0"
+  }
+}

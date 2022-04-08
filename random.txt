@@ -1,0 +1,2 @@
+WEATHER,MOVIE
+baku,break,istanbul,god 
