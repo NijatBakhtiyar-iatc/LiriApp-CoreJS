@@ -1,21 +1,3 @@
-get: WEATHER
-search: baku
-{"coord":{"lon":49.892,"lat":40.3777},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":288.18,"feels_like":287.38,"temp_min":288.18,"temp_max":288.18,"pressure":1000,"humidity":63},"visibility":10000,"wind":{"speed":15.95,"deg":200,"gust":21.09},"clouds":{"all":0},"dt":1649426392,"sys":{"type":1,"id":8841,"country":"AZ","sunrise":1649383997,"sunset":1649430661},"timezone":14400,"id":587084,"name":"Baku","cod":200}
-get: MOVIE
+get: RANDOM
 search: god
 {"Title":"God, the Devil and Bob","Year":"2000","Rated":"TV-14","Released":"09 Mar 2000","Runtime":"30 min","Genre":"Comedy, Animation","Director":"N/A","Writer":"Matthew Carlson","Actors":"Alan Cumming, James Garner, French Stewart","Plot":"God has made a bet with the Devil: if one human of the Devil's choosing can't prove that humanity is decent, God will scrap all of creation and start over. The Devil chooses Detroit car assembly line worker Bob Alman. Now Bob has to live a decent life with no hints from God and constant temptation from the Devil.","Language":"English","Country":"United States","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BMTA2NjExMTI3MjReQTJeQWpwZ15BbWU3MDk3NzM3MjE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.6/10"}],"Metascore":"N/A","imdbRating":"7.6","imdbVotes":"935","imdbID":"tt0221751","Type":"series","totalSeasons":"N/A","Response":"True"}
-get: RANDOM
-search: god 
-undefined
-get: RANDOM
-search: baku
-undefined
-get: RANDOM
-search: break
-undefined
-get: RANDOM
-search: god 
-undefined
-get: RANDOM
-search: break
-undefined

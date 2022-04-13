@@ -5,7 +5,6 @@ import { weatherApi } from './weather.js';
 import { movieApi } from './movie.js';
 import fs from "fs";
 
-dotenv.config()
 let checkRandom = false;
 
 inquirer
@@ -49,11 +48,12 @@ inquirer
                 }
 
                 // GET VALUE FROM RESULT
-                const splitStr = (data.split('\n'));
-                const commandApi = splitStr[0].split(',');
-                const commandWord = splitStr[1].split(',');
+                const splitStr = (data.trim().split('\n'));
+                const commandApi = splitStr[0].trim().split(',');
+                const commandWord = splitStr[1].trim().split(',');
                 const randomWord = Math.floor(Math.random() * (commandWord.length));
                 const randomApi = Math.floor(Math.random() * (commandApi.length));
+
 
 
                 if (commandApi[randomApi].trim() == "WEATHER") {
